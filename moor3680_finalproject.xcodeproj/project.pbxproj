@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6530A9C280DEF6100EF9AC8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6530A9B280DEF6100EF9AC8 /* DetailViewController.swift */; };
+		B6650F7A280BBB7A00234886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F79280BBB7A00234886 /* AppDelegate.swift */; };
+		B6650F7C280BBB7A00234886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F7B280BBB7A00234886 /* SceneDelegate.swift */; };
+		B6650F7E280BBB7A00234886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F7D280BBB7A00234886 /* ViewController.swift */; };
+		B6650F81280BBB7A00234886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6650F7F280BBB7A00234886 /* Main.storyboard */; };
+		B6650F83280BBB7D00234886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6650F82280BBB7D00234886 /* Assets.xcassets */; };
+		B6650F86280BBB7D00234886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6650F84280BBB7D00234886 /* LaunchScreen.storyboard */; };
+		B6650F91280BBB7D00234886 /* moor3680_finalprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F90280BBB7D00234886 /* moor3680_finalprojectTests.swift */; };
+		B6650F9B280BBB7D00234886 /* moor3680_finalprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F9A280BBB7D00234886 /* moor3680_finalprojectUITests.swift */; };
+		B6650F9D280BBB7D00234886 /* moor3680_finalprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650F9C280BBB7D00234886 /* moor3680_finalprojectUITestsLaunchTests.swift */; };
+		B6650FAA280BBC3F00234886 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650FA9280BBC3F00234886 /* FirstTabViewController.swift */; };
+		B6650FAC280BBC5D00234886 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650FAB280BBC5D00234886 /* SecondTabViewController.swift */; };
+		B6650FAE280BBC7500234886 /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650FAD280BBC7500234886 /* ThirdTabViewController.swift */; };
+		B6650FB0280BBC8A00234886 /* FourthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650FAF280BBC8A00234886 /* FourthTabViewController.swift */; };
+		B6650FB2280BC8C000234886 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6650FB1280BC8C000234886 /* Patient.swift */; };
+		B692B75D280F4CD800FCDFA2 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = B692B75C280F4CD800FCDFA2 /* CalendarKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6650F8D280BBB7D00234886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6650F6E280BBB7A00234886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6650F75280BBB7A00234886;
+			remoteInfo = moor3680_finalproject;
+		};
+		B6650F97280BBB7D00234886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6650F6E280BBB7A00234886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6650F75280BBB7A00234886;
+			remoteInfo = moor3680_finalproject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6530A9B280DEF6100EF9AC8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B6650F76280BBB7A00234886 /* moor3680_finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moor3680_finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6650F79280BBB7A00234886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6650F7B280BBB7A00234886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6650F7D280BBB7A00234886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6650F80280BBB7A00234886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6650F82280BBB7D00234886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6650F85280BBB7D00234886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6650F87280BBB7D00234886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6650F8C280BBB7D00234886 /* moor3680_finalprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moor3680_finalprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6650F90280BBB7D00234886 /* moor3680_finalprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moor3680_finalprojectTests.swift; sourceTree = "<group>"; };
+		B6650F96280BBB7D00234886 /* moor3680_finalprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moor3680_finalprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6650F9A280BBB7D00234886 /* moor3680_finalprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moor3680_finalprojectUITests.swift; sourceTree = "<group>"; };
+		B6650F9C280BBB7D00234886 /* moor3680_finalprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moor3680_finalprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6650FA9280BBC3F00234886 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		B6650FAB280BBC5D00234886 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		B6650FAD280BBC7500234886 /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		B6650FAF280BBC8A00234886 /* FourthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabViewController.swift; sourceTree = "<group>"; };
+		B6650FB1280BC8C000234886 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		B692B75E280F67D500FCDFA2 /* Calendar.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Calendar.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6650F73280BBB7A00234886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B692B75D280F4CD800FCDFA2 /* CalendarKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F89280BBB7D00234886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F93280BBB7D00234886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6650F6D280BBB7A00234886 = {
+			isa = PBXGroup;
+			children = (
+				B6650F78280BBB7A00234886 /* moor3680_finalproject */,
+				B6650F8F280BBB7D00234886 /* moor3680_finalprojectTests */,
+				B6650F99280BBB7D00234886 /* moor3680_finalprojectUITests */,
+				B6650F77280BBB7A00234886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6650F77280BBB7A00234886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6650F76280BBB7A00234886 /* moor3680_finalproject.app */,
+				B6650F8C280BBB7D00234886 /* moor3680_finalprojectTests.xctest */,
+				B6650F96280BBB7D00234886 /* moor3680_finalprojectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6650F78280BBB7A00234886 /* moor3680_finalproject */ = {
+			isa = PBXGroup;
+			children = (
+				B692B75E280F67D500FCDFA2 /* Calendar.entitlements */,
+				B6650F79280BBB7A00234886 /* AppDelegate.swift */,
+				B6650F7B280BBB7A00234886 /* SceneDelegate.swift */,
+				B6650F7D280BBB7A00234886 /* ViewController.swift */,
+				B6650F7F280BBB7A00234886 /* Main.storyboard */,
+				B6650F82280BBB7D00234886 /* Assets.xcassets */,
+				B6650F84280BBB7D00234886 /* LaunchScreen.storyboard */,
+				B6650F87280BBB7D00234886 /* Info.plist */,
+				B6650FA9280BBC3F00234886 /* FirstTabViewController.swift */,
+				B6650FAB280BBC5D00234886 /* SecondTabViewController.swift */,
+				B6650FAD280BBC7500234886 /* ThirdTabViewController.swift */,
+				B6650FAF280BBC8A00234886 /* FourthTabViewController.swift */,
+				B6650FB1280BC8C000234886 /* Patient.swift */,
+				B6530A9B280DEF6100EF9AC8 /* DetailViewController.swift */,
+			);
+			path = moor3680_finalproject;
+			sourceTree = "<group>";
+		};
+		B6650F8F280BBB7D00234886 /* moor3680_finalprojectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6650F90280BBB7D00234886 /* moor3680_finalprojectTests.swift */,
+			);
+			path = moor3680_finalprojectTests;
+			sourceTree = "<group>";
+		};
+		B6650F99280BBB7D00234886 /* moor3680_finalprojectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6650F9A280BBB7D00234886 /* moor3680_finalprojectUITests.swift */,
+				B6650F9C280BBB7D00234886 /* moor3680_finalprojectUITestsLaunchTests.swift */,
+			);
+			path = moor3680_finalprojectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6650F75280BBB7A00234886 /* moor3680_finalproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6650FA0280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalproject" */;
+			buildPhases = (
+				B6650F72280BBB7A00234886 /* Sources */,
+				B6650F73280BBB7A00234886 /* Frameworks */,
+				B6650F74280BBB7A00234886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moor3680_finalproject;
+			packageProductDependencies = (
+				B692B75C280F4CD800FCDFA2 /* CalendarKit */,
+			);
+			productName = moor3680_finalproject;
+			productReference = B6650F76280BBB7A00234886 /* moor3680_finalproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6650F8B280BBB7D00234886 /* moor3680_finalprojectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6650FA3280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalprojectTests" */;
+			buildPhases = (
+				B6650F88280BBB7D00234886 /* Sources */,
+				B6650F89280BBB7D00234886 /* Frameworks */,
+				B6650F8A280BBB7D00234886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6650F8E280BBB7D00234886 /* PBXTargetDependency */,
+			);
+			name = moor3680_finalprojectTests;
+			productName = moor3680_finalprojectTests;
+			productReference = B6650F8C280BBB7D00234886 /* moor3680_finalprojectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6650F95280BBB7D00234886 /* moor3680_finalprojectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6650FA6280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalprojectUITests" */;
+			buildPhases = (
+				B6650F92280BBB7D00234886 /* Sources */,
+				B6650F93280BBB7D00234886 /* Frameworks */,
+				B6650F94280BBB7D00234886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6650F98280BBB7D00234886 /* PBXTargetDependency */,
+			);
+			name = moor3680_finalprojectUITests;
+			productName = moor3680_finalprojectUITests;
+			productReference = B6650F96280BBB7D00234886 /* moor3680_finalprojectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6650F6E280BBB7A00234886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B6650F75280BBB7A00234886 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B6650F8B280BBB7D00234886 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B6650F75280BBB7A00234886;
+					};
+					B6650F95280BBB7D00234886 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B6650F75280BBB7A00234886;
+					};
+				};
+			};
+			buildConfigurationList = B6650F71280BBB7A00234886 /* Build configuration list for PBXProject "moor3680_finalproject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6650F6D280BBB7A00234886;
+			packageReferences = (
+				B692B75B280F4CD800FCDFA2 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
+			productRefGroup = B6650F77280BBB7A00234886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6650F75280BBB7A00234886 /* moor3680_finalproject */,
+				B6650F8B280BBB7D00234886 /* moor3680_finalprojectTests */,
+				B6650F95280BBB7D00234886 /* moor3680_finalprojectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6650F74280BBB7A00234886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6650F86280BBB7D00234886 /* LaunchScreen.storyboard in Resources */,
+				B6650F83280BBB7D00234886 /* Assets.xcassets in Resources */,
+				B6650F81280BBB7A00234886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F8A280BBB7D00234886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F94280BBB7D00234886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6650F72280BBB7A00234886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6530A9C280DEF6100EF9AC8 /* DetailViewController.swift in Sources */,
+				B6650FAE280BBC7500234886 /* ThirdTabViewController.swift in Sources */,
+				B6650F7E280BBB7A00234886 /* ViewController.swift in Sources */,
+				B6650FAC280BBC5D00234886 /* SecondTabViewController.swift in Sources */,
+				B6650FAA280BBC3F00234886 /* FirstTabViewController.swift in Sources */,
+				B6650FB0280BBC8A00234886 /* FourthTabViewController.swift in Sources */,
+				B6650FB2280BC8C000234886 /* Patient.swift in Sources */,
+				B6650F7A280BBB7A00234886 /* AppDelegate.swift in Sources */,
+				B6650F7C280BBB7A00234886 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F88280BBB7D00234886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6650F91280BBB7D00234886 /* moor3680_finalprojectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6650F92280BBB7D00234886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6650F9B280BBB7D00234886 /* moor3680_finalprojectUITests.swift in Sources */,
+				B6650F9D280BBB7D00234886 /* moor3680_finalprojectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6650F8E280BBB7D00234886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6650F75280BBB7A00234886 /* moor3680_finalproject */;
+			targetProxy = B6650F8D280BBB7D00234886 /* PBXContainerItemProxy */;
+		};
+		B6650F98280BBB7D00234886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6650F75280BBB7A00234886 /* moor3680_finalproject */;
+			targetProxy = B6650F97280BBB7D00234886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6650F7F280BBB7A00234886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6650F80280BBB7A00234886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6650F84280BBB7D00234886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6650F85280BBB7D00234886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6650F9E280BBB7D00234886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6650F9F280BBB7D00234886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6650FA1280BBB7D00234886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moor3680_finalproject/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app needs access to the Calendar to display events";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalproject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6650FA2280BBB7D00234886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moor3680_finalproject/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "The app needs access to the Calendar to display events";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalproject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6650FA4280BBB7D00234886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalprojectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moor3680_finalproject.app/moor3680_finalproject";
+			};
+			name = Debug;
+		};
+		B6650FA5280BBB7D00234886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalprojectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moor3680_finalproject.app/moor3680_finalproject";
+			};
+			name = Release;
+		};
+		B6650FA7280BBB7D00234886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalprojectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moor3680_finalproject;
+			};
+			name = Debug;
+		};
+		B6650FA8280BBB7D00234886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N6Q3S95J3V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.byenterprises.moor3680-finalprojectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moor3680_finalproject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6650F71280BBB7A00234886 /* Build configuration list for PBXProject "moor3680_finalproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6650F9E280BBB7D00234886 /* Debug */,
+				B6650F9F280BBB7D00234886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6650FA0280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6650FA1280BBB7D00234886 /* Debug */,
+				B6650FA2280BBB7D00234886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6650FA3280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalprojectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6650FA4280BBB7D00234886 /* Debug */,
+				B6650FA5280BBB7D00234886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6650FA6280BBB7D00234886 /* Build configuration list for PBXNativeTarget "moor3680_finalprojectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6650FA7280BBB7D00234886 /* Debug */,
+				B6650FA8280BBB7D00234886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B692B75B280F4CD800FCDFA2 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B692B75C280F4CD800FCDFA2 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B692B75B280F4CD800FCDFA2 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6650F6E280BBB7A00234886 /* Project object */;
+}
