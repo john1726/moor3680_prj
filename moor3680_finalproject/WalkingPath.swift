@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 import os.log
 
-class Patient: Codable {
+class WalkingPath: Codable {
 
     var name: String
     var photo: UIImage?

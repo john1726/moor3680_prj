@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class PatientCollection : Codable {
+class WalkingPathCollection : Codable {
     static var collection = [Patient]() // a deck is an array of cards
     static var current:Int = 0 // the current card on the deck (to be shown in the scene)
     
